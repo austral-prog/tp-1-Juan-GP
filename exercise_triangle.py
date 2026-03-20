@@ -5,5 +5,9 @@ def triangle():
     Dados la base y altura de un triángulo, calcular e imprimir:
     1. El área del triángulo ((base × altura) / 2)
     """
-    base = 10
-    altura = 6
+    b = 10
+    a = 6
+
+    area=(a*b)/2
+    int(area)
+    print(area)
